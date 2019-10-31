@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace tabuleiro
+﻿namespace tabuleiro
 {
     class Tabuleiro
     {
@@ -53,7 +49,7 @@ namespace tabuleiro
         }
         public void validarPosicao(Posicao pos)
         {
-            if(posicaoValida(pos)==false)
+            if(!posicaoValida(pos))
             {
                 throw new TabuleiroException("Posição inválida!");
             }
