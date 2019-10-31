@@ -8,9 +8,9 @@ namespace xadrez_console
     {
         public static void imprimirTabuleiro(Tabuleiro tab)
         {
-            for (int i =0; i<tab.linhas;i++)
+            for (int i = 0; i < tab.linhas; i++)
             {
-                for(int j =0; j<tab.colunas;j++)
+                for(int j = 0; j < tab.colunas; j++)
                 {
                     if (tab.peca(i, j) == null)
                     {
